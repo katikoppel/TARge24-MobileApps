@@ -14,10 +14,9 @@ namespace MauiPlanets
         {
             InitializeComponent();
 
-
             Microsoft.Maui.Handlers.WindowHandler.Mapper.AppendToMapping(nameof(IWindow), (handler, view) =>
             {
-#if WINDOWS
+                #if WINDOWS
                 var mauiWindow = handler.VirtualView;
                 var nativeWindow = handler.PlatformView;
                 nativeWindow.Activate();
@@ -25,10 +24,10 @@ namespace MauiPlanets
                 WindowId windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(windowHandle);
                 AppWindow appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);
                 appWindow.Resize(new SizeInt32(WindowWidth, WindowHeight));
-#endif
+                #endif
             });
 
-            }
+        }
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
