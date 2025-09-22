@@ -377,7 +377,7 @@
             Margin="0.5"
             Style="{StaticResource OperatorButtonStyle}"
             Text="="
-            Command="{Binding OperatorButtonCommand}"
+            Command="{Binding CalculateCommand}"
             CommandParameter="="/>
 
         <Button
