@@ -179,7 +179,30 @@ namespace MauiPlanets.Services
                             "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
                             "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
                         }
-                    }
+                    },
+                //new()
+                //    {
+                //        Name = "Pluto",
+                //        Subtitle = "The dwarf planet",
+                //        HeroImage = "pluto.png",
+                //        Description = "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet " +
+                //        "in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest " +
+                //        "and tenth-most-massive known object to directly orbit the Sun. Pluto is the largest known " +
+                //        "trans-Neptunian object by volume, but it is less massive than Eris. Like other Kuiper belt objects, " +
+                //        "Pluto is composed mainly of ice and rock, and it is much smaller than the inner planets. " +
+                //        "It has about one-sixth the mass of Earth's Moon and one-third of its volume. " +
+                //        "Originally considered the ninth planet, Pluto was reclassified as a dwarf planet when " +
+                //        "astronomers adopted a new definition of planet.",
+                //        AccentColorStart = Color.FromArgb("#2c3e50"),
+                //        AccentColorEnd = Color.FromArgb("#4ca1af"),
+                //        Images = new()
+                //        {
+                //            "https://science.nasa.gov/wp-content/uploads/2023/05/pia19968-charonmoon-jpg.webp",
+                //            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/1200px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg",
+                //            "https://science.nasa.gov/wp-content/uploads/2023/07/dwarf-planets.jpg?resize=1200,675"
+                //        }
+                //    }
+
         };
 
         public static List<Planet> GetFeaturedPlanets()
