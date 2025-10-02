@@ -10,7 +10,7 @@ namespace MauiPlanets
 {
     public partial class App : Application
     {
-        const int WindowWidth = 720;
+        const int WindowWidth = 800;
         const int WindowHeight = 1280;
         public App()
         {
