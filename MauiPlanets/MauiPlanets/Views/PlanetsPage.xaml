@@ -273,7 +273,7 @@
 
                                         <Label 
                                             Grid.Row="1"
-                                            Style="{StaticResource AllPlanetHeaderSubtitlStyle}"
+                                            Style="{StaticResource AllPlanetHeaderSubtitleStyle}"
                                             Text="{Binding Name}"
                                             Margin="0,4,0,0"/>
 
