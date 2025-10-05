@@ -156,7 +156,7 @@
                                             Grid.Row="0"
                                             Source="{Binding HeroImage}" 
                                             Rotation="-30"
-                                            Aspect="AspectFill"
+                                            Aspect="AspectFit"
                                             VerticalOptions="Fill"
                                             HorizontalOptions="Fill" />
                                         <Label 
@@ -220,7 +220,7 @@
                                             Grid.Row="0"
                                             Source="{Binding HeroImage}"
                                             Rotation="-30"
-                                            Aspect="AspectFill"
+                                            Aspect="AspectFit"
                                             VerticalOptions="Fill"
                                             HorizontalOptions="Fill" />
 
@@ -234,6 +234,57 @@
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
                     </CollectionView>
+
+                    <CollectionView
+                        x:Name="lstAllDwarfPlanets"
+                        HeightRequest="160"
+                        SelectionMode="Single"
+                        SelectionChanged="Planets_SelectionChanged">
+
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout 
+                                Orientation="Horizontal"
+                                ItemSpacing="16"/>
+                        </CollectionView.ItemsLayout>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate 
+                                x:DataType="models:DwarfPlanet">
+                                <Border
+                                    VerticalOptions="Fill"
+                                    WidthRequest="140"
+                                    StrokeThickness="0"
+                                    Background="{Binding Background}"
+                                    Padding="16">
+
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="16" />
+                                    </Border.StrokeShape>
+
+                                    <Grid
+                                        RowDefinitions="*, Auto,Auto"
+                                        RowSpacing="4">
+                                        <Image 
+                                            Grid.Row="0"
+                                            Source="{Binding HeroImage}"
+                                            Aspect="AspectFit"
+                                            VerticalOptions="Fill"
+                                            HorizontalOptions="Fill"/>
+
+                                        <Label 
+                                            Grid.Row="1"
+                                            Style="{StaticResource AllPlanetHeaderSubtitlStyle}"
+                                            Text="{Binding Name}"
+                                            Margin="0,4,0,0"/>
+
+                                    </Grid>
+                                </Border>
+
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+
+                    </CollectionView>
+
                 </VerticalStackLayout>
             </ScrollView>
             

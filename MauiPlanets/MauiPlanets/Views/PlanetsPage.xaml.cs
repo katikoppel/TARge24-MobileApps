@@ -17,6 +17,7 @@ public partial class PlanetsPage : ContentPage
 
 		lstPopularPlanets.ItemsSource = PlanetsService.GetFeaturedPlanets();
 		lstAllPlanets.ItemsSource = PlanetsService.GetAllPlanets();
+        lstAllDwarfPlanets.ItemsSource = DwarfPlanetsServices.GetAllDwarfPlanets();
     }
 
 	async void Planets_SelectionChanged(System.Object sender, Microsoft.Maui.Controls.SelectionChangedEventArgs e)
