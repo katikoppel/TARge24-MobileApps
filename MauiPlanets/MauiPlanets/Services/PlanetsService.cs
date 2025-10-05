@@ -24,8 +24,8 @@ namespace MauiPlanets.Services
                 Images = new()
                 {
                     "https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
+                    "https://science.nasa.gov/wp-content/uploads/2023/09/spectra-mercury.jpg?w=1024",
+                    "https://science.nasa.gov/wp-content/uploads/2023/11/mercury-messenger-globe-pia15162.jpg"
                 }
             },
             new()
@@ -47,10 +47,9 @@ namespace MauiPlanets.Services
                     AccentColorEnd = Color.FromArgb("#d17f21"),
                     Images = new()
                     {
-                        "https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
-                        "https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
-                        "https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
-                        "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
+                        "https://upload.wikimedia.org/wikipedia/commons/c/c7/PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped%29.jpg",
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Venus_-_December_23_2016.png/250px-Venus_-_December_23_2016.png",
+                        "https://media.wired.com/photos/5e59ad2b79c7100008eb6ae8/master/pass/photo_space_venus_1_S91-50688.jpg"
                     }
                 },
                 new()
@@ -70,9 +69,9 @@ namespace MauiPlanets.Services
                     AccentColorEnd = Color.FromArgb("#68a9dd"),
                     Images = new()
                     {
-                        "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
-                        "https://solarsystem.nasa.gov/system/feature_items/images/18_earth_carousel_2.jpg",
-                        "https://solarsystem.nasa.gov/system/feature_items/images/19_earth_carousel_3.jpg"
+                        "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/04/earth/24035530-2-eng-GB/Earth_pillars.jpg",
+                        "https://onetreeplanted.org/cdn/shop/articles/planet_earth_sun_7354ba86-5359-4c08-919a-54a7d5aec991_1800x.jpg?v=1745336570",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wTq_iVPZtR_6mxU7fzznCHDdcfOqMCkKeQ&s"
                     }
                 },
                 new()
@@ -91,7 +90,7 @@ namespace MauiPlanets.Services
                         AccentColorEnd = Color.FromArgb("#eb3333"),
                         Images = new()
                         {
-                            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+                            "https://science.nasa.gov/wp-content/uploads/2023/04/272_MarsInSight_poster-jpg.webp",
                             "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
                             "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
                         }
@@ -113,9 +112,9 @@ namespace MauiPlanets.Services
                         AccentColorEnd = Color.FromArgb("#cd8026"),
                         Images = new()
                         {
-                            "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+                            "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/850F/production/_106136043_body.jpg",
+                            "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/4204/Jupiter_against_black_background_of_space.jpeg?w=2260&h=2260&fit=clip&crop=faces%2Cfocalpoint",
+                            "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8584705/PJ06_portrait005_full_v2__1_.png?quality=90&strip=all&crop=0%2C3.0982905982906%2C100%2C93.803418803419&w=2400"
                         }
                     },
                 new()
@@ -131,10 +130,9 @@ namespace MauiPlanets.Services
                         AccentColorEnd = Color.FromArgb("#c6502f"),
                         Images = new()
                         {
-                            "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+                            "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/1995/08/STScI-01EVVG4A93XXMPF5E81VHPWG1T.tif/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+                            "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2021/11/STScI-01FM5SQHAAKGSQ6A24031KDE5G.tif/jcr:content/renditions/Full%20Res.png",
+                            "https://science.nasa.gov/wp-content/uploads/2023/04/171395main_image_feature_778_ys_full-jpg.webp"
                         }
                     },
                 new()
@@ -153,9 +151,9 @@ namespace MauiPlanets.Services
                         AccentColorEnd = Color.FromArgb("#996237"),
                         Images = new()
                         {
-                            "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
+                            "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/i/a/0/PIA01492-1.jpg?w=2188&h=2185&fit=clip&crop=faces%2Cfocalpoint",
+                            "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2003/05/uranus2/17876812-2-eng-GB/Uranus.jpg",
+                            "https://blog.movaglobes.com/wp-content/uploads/2019/05/Uranus-by-voyager-2.png"
                         }
                     },
                 new()
@@ -175,9 +173,9 @@ namespace MauiPlanets.Services
                         AccentColorEnd = Color.FromArgb("#26abe0"),
                         Images = new()
                         {
-                            "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                            "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                            "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/i/a/0/PIA01492-1.jpg?w=2188&h=2185&fit=clip&crop=faces%2Cfocalpoint",
+                            "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/internal_resources/details/original/1802_428_exo-neptune_art_1600.jpg?w=1600&h=900&fit=clip&crop=faces%2Cfocalpoint",
+                            "https://techvortex.net/wp-content/uploads/2023/03/Neptune-Planet.webp"
                         }
                     }
         };
