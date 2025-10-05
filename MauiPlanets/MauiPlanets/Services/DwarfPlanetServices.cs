@@ -23,7 +23,7 @@ namespace MauiPlanets.Services
                 Images = new()
                 {
                     "https://science.nasa.gov/wp-content/uploads/2023/05/pia19968-charonmoon-jpg.webp",
-                    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/1200px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg",
+                    "https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg",
                     "https://science.nasa.gov/wp-content/uploads/2023/07/dwarf-planets.jpg?resize=1200,675"
                 }
             },
@@ -37,12 +37,12 @@ namespace MauiPlanets.Services
                 " discovered on 1 January 1801 by Giuseppe Piazzi at Palermo Astronomical Observatory in Sicily," +
                 " and announced as a new planet. Ceres was later classified as an asteroid and more recently as a dwarf planet," +
                 " the only one not beyond the orbit of Neptune and the largest that does not have a moon.",
-                AccentColorStart = Color.FromArgb("#4a4a4a"),
-                AccentColorEnd   = Color.FromArgb("#9e9e9e"),
+                AccentColorStart = Color.FromArgb("#1a1a1a"),
+                AccentColorEnd   = Color.FromArgb("#737373"),
                 Images = new()
                 {
                     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/2948/Image_of_Ceres_with_bright_spot.jpeg?w=640&h=350&fit=clip&crop=faces%2Cfocalpoint",
-                    "https://upload.wikimedia.org/wikipedia/commons/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg",
+                    "https://science.nasa.gov/wp-content/uploads/2024/03/ceres-dawn-pia19562-16x9-1.jpg",
                     "https://science.nasa.gov/wp-content/uploads/2023/07/dwarf-planets.jpg?resize=1200,675"
                 }
             },
@@ -74,14 +74,14 @@ namespace MauiPlanets.Services
                 " and the largest of what is known as the classical population of Kuiper belt objects," +
                 " with a diameter approximately that of Saturn's moon Iapetus, or 60% that of Pluto." +
                 " It has one known satellite. Its extremely low average temperature, about 40 K (−230 °C)," +
-                "means its surface is covered with methane, ethane, and possibly nitrogen ices." +
+                " means its surface is covered with methane, ethane, and possibly nitrogen ices." +
                 " Makemake shows signs of geothermal activity and thus may be capable of supporting active geology and harboring an active subsurface ocean.",
                 AccentColorStart = Color.FromArgb("#2c2c4c"),
                 AccentColorEnd   = Color.FromArgb("#50507a"),
                 Images = new()
                 {
                     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/m/makemake_th.jpg?w=320&h=240&fit=clip&crop=faces%2Cfocalpoint",
-                    "https://static.wikia.nocookie.net/expanse/images/f/f8/Makemake_artistic.jpg/revision/latest?cb=20200206044422",
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/5067/Makemake_moon-1.jpeg?w=800&h=600&fit=clip&crop=faces%2Cfocalpoint",
                     "https://science.nasa.gov/wp-content/uploads/2023/07/dwarf-planets.jpg?resize=1200,675"
                 }
             },
@@ -95,7 +95,7 @@ namespace MauiPlanets.Services
                 " Eris was discovered in January 2005 by a Palomar Observatory–based team led by Mike Brown and verified later that year." +
                 " It was named in September 2006 after the Greco–Roman goddess of strife and discord." +
                 " Eris is the ninth-most massive known object orbiting the Sun and" +
-                "the sixteenth-most massive in the Solar System (counting moons)." +
+                " the sixteenth-most massive in the Solar System (counting moons)." +
                 " It is also the largest known object in the Solar System that has not been visited by a spacecraft.",
                 AccentColorStart = Color.FromArgb("#1a1a1a"),
                 AccentColorEnd   = Color.FromArgb("#737373"),
